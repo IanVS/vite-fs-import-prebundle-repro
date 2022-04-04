@@ -1,0 +1,13 @@
+diff --git a/node_modules/left-pad/index.js b/node_modules/left-pad/index.js
+index e90aec3..6cc3e32 100644
+--- a/node_modules/left-pad/index.js
++++ b/node_modules/left-pad/index.js
+@@ -19,6 +19,8 @@ var cache = [
+   '         '
+ ];
+ 
++console.log('left-pad?  Really?');
++
+ function leftPad (str, len, ch) {
+   // convert `str` to a `string`
+   str = str + '';
